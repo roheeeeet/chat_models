@@ -11,7 +11,7 @@ completion = client.chat.completions.create(
     messages=[
         {
             "role": "user",
-            "content": "Write a poem on the beauty of Death."
+            "content": "Any Query" #ask any query you want
         }
     ],
     temperature=0.1
