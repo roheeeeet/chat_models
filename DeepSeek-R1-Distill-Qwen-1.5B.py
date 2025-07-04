@@ -11,7 +11,7 @@ completion = client.chat.completions.create(
     messages=[
         {
             "role": "user",
-            "content": "Write a short poem on the Beauty of learning"
+            "content": "Write a short poem on the Beauty of learning" #write any prompt you want
         }
     ],
     temperature=0.7
